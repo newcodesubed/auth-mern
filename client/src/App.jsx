@@ -8,7 +8,7 @@ import Login from "./pages/Login";
 //for connecting backend route to frontend
 import axios from "axios";
 import { Toaster } from "react-hot-toast";
-import { UserContextProvider } from "../context/userContext";
+import { UserContextProvider } from "../context/userContextProvider";
 import Dashboard from "./pages/Dashboard";
 
 axios.defaults.baseURL = "http://localhost:8000";
